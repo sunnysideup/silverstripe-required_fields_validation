@@ -1,9 +1,9 @@
 {
-	"name": "sunnysideup/advertisements",
+	"name": "sunnysideup/required_fields_validation",
 	"type": "silverstripe-module",
 	"description": "Generic validation for form fields that can be used on the back-end and front-end of the site. ",
 	"homepage": "http://www.silverstripe-webdevelopment.com",
-	"keywords": ["advertisements", "slides", "silverstripe"],
+	"keywords": ["form", "fields", "silverstripe"],
 	"license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
 	"authors":[
 		{
@@ -14,7 +14,6 @@
 		}
 	],
 	"require":{
-		"php": ">=5.3.2",
-		"silverstripe/framework": ">=3.0.0"
+		"silverstripe/framework": "~3.0"
 	}
 }
