@@ -15,5 +15,8 @@
 	],
 	"require":{
 		"silverstripe/framework": "~3.0"
-	}
+	},
+	"extra": {
+		"installer-name": "required_fields_validation"
+	}	
 }
