@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<source xmlns="http://xml.phpdox.net/src">
+  <dir name="/var/www/_modules/required_fields_validation/trunk">
+    <file name="_config.php" size="311" time="2015-03-14T10:22:21+13:00" unixtime="1426281741" sha1="055d452fd0489dc21104acb7134614940e3a4fa9" xml="tokens/_config.php.xml"/>
+    <dir name="code">
+      <file name="ValidationDE.php" size="724" time="2015-03-14T10:22:21+13:00" unixtime="1426281741" sha1="c92bc2b97a6d541610f62547fa1166c6f53efa4a" xml="tokens/code/ValidationDE.php.xml"/>
+    </dir>
+  </dir>
+</source>
