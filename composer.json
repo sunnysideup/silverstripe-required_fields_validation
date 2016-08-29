@@ -1,22 +1,24 @@
 {
-	"name": "sunnysideup/required_fields_validation",
-	"type": "silverstripe-module",
-	"description": "Generic validation for form fields that can be used on the back-end and front-end of the site. ",
-	"homepage": "http://www.silverstripe-webdevelopment.com",
-	"keywords": ["form", "fields", "silverstripe"],
-	"license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
-	"authors":[
-		{
-			"name": "Romain Louis",
-			"homepage": "https://github.com/sunnysideup",
-			"email" : "modules@sunnysideup.co.nz",
-			"role" : "lead developer"
-		}
-	],
-	"require":{
-		"silverstripe/framework": "~3.1"
-	},
-	"extra": {
-		"installer-name": "required_fields_validation"
-	}
+    "name": "sunnysideup/required_fields_validation",
+    "type": "silverstripe-module",
+    "description": "Generic validation for form fields that can be used on the back-end and front-end of the site. ",
+    "keywords": [
+        "form",
+        "fields",
+        "silverstripe"
+    ],
+    "license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
+    "authors": [
+        {
+            "name": "Romain Louis",
+            "email": "modules@sunnysideup.co.nz",
+            "role": "lead developer"
+        }
+    ],
+    "require": {
+        "silverstripe/framework": "~3.1"
+    },
+    "extra": {
+        "installer-name": "required_fields_validation"
+    }
 }
