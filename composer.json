@@ -3,9 +3,11 @@
     "type": "silverstripe-module",
     "description": "Generic validation for form fields that can be used on the back-end and front-end of the site. ",
     "keywords": [
+        "Silverstripe-CMS",
+        "CMS",
+        "Silverstripe",
         "form",
-        "fields",
-        "silverstripe"
+        "fields"
     ],
     "license": "Sunny Side Up (BSD-3-Clause and CUSTOM)",
     "authors": [
@@ -16,7 +18,8 @@
         }
     ],
     "require": {
-        "silverstripe/framework": "~3.1"
+        "silverstripe/framework": "~3.1",
+        "silverstripe/cms": "~3.1"
     },
     "extra": {
         "installer-name": "required_fields_validation"
