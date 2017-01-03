@@ -1,23 +1,72 @@
-REQUIRED FIELDS VALIDATION
-================================================================================
+# Silverstripe required fields validation module
+[![Build Status](https://travis-ci.org/sunnysideup/silverstripe-required_fields_validation.svg?branch=master)](https://travis-ci.org/sunnysideup/silverstripe-required_fields_validation)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-required_fields_validation/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/sunnysideup/silverstripe-required_fields_validation/?branch=master)
+[![codecov.io](https://codecov.io/github/sunnysideup/silverstripe-required_fields_validation/coverage.svg?branch=master)](https://codecov.io/github/sunnysideup/silverstripe-required_fields_validation?branch=master)
+![helpfulrobot](https://helpfulrobot.io/sunnysideup/required_fields_validation/badge)
 
-Developer
------------------------------------------------
-Romain [at] sunnysideup.co.nz
+[![Latest Stable Version](https://poser.pugx.org/sunnysideup/required_fields_validation/version)](https://packagist.org/packages/sunnysideup/required_fields_validation)
+[![License](https://poser.pugx.org/sunnysideup/required_fields_validation/license)](https://packagist.org/packages/sunnysideup/required_fields_validation)
+[![Monthly Downloads](https://poser.pugx.org/sunnysideup/required_fields_validation/d/monthly)](https://packagist.org/packages/sunnysideup/required_fields_validation)
 
-Requirements
------------------------------------------------
-SilverStripe 3.0 or greater.
 
-Documentation
------------------------------------------------
+## Documentation
 
-Installation Instructions
------------------------------------------------
-1. Find out how to add modules to SS and add module as per usual.
 
-2. copy configurations from this module's _config file
-into mysite/_config file and edit settings as required.
-NB. the idea is not to edit the module at all, but instead customise
-it from your mysite folder, so that you can upgrade the module without redoing the settings.
 
+ * [Developer Docs](docs/en/INDEX.md)
+ * [User Guide](docs/en/userguide.md)
+ * [API](http://ssmods.com/apis/required_fields_validation/docs/en/api/)
+
+## Requirements
+
+
+
+see [composer.json](composer.json) for details
+
+### Suggested Modules
+
+
+
+see [composer.json](composer.json) for details
+
+
+## Installation
+
+
+```
+composer require sunnysideup/required_fields_validation
+```
+
+### Configuration
+
+
+
+In the `_config` folder you will find the `required_fields_validation.yml.example`
+file that shows options for the configuration of this module.
+
+We recommend that you:
+
+  1. copy these `required_fields_validation.yml.example` files into your
+`mysite/_config` folder
+  2. remove the .example extension
+  3. delete the lines you not care about, and
+  4. adjust the configurations that you would like to use.
+
+
+## Contributing
+
+
+
+We welcome any contributions. See [CONTRIBUTING.md](CONTRIBUTING.md) for more details.
+
+## Paid assistance
+
+
+
+You can pay us to create an improved / adapted version of this module for your own projects.  Please contact us if you like to find out more: [www.sunnysideup.co.nz](http://www.sunnysideup.co.nz)
+
+## Author
+
+
+
+Sunny Side Up Ltd.
