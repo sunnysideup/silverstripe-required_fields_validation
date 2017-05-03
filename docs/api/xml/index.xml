@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<index xmlns="http://xml.phpdox.net/src" basedir="/var/www/_modules/required_fields_validation/trunk">
-  <namespace name="">
-    <class name="ValidationDE" src="code/ValidationDE.php" xml="classes/ValidationDE.xml"/>
-  </namespace>
-</index>
